@@ -1,0 +1,677 @@
+*{
+	padding: 0;
+	margin: 0;
+	}
+
+.daohang{
+	width: 1300px;
+	height: 180px;
+	background-image: url("../images/daohang.gif");
+    background-size: 1300px 200px;
+    padding-top: 0;
+    margin: 0 auto; 
+}
+
+.webname{
+	font-style:oblique;
+	font-size:50px;
+	margin-left: 10px;
+	float:left;
+	height:45px;
+	weight:250px;
+}
+
+.head_nav{
+	margin-top: 120px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	float: right;
+	opacity: 0.8;
+}
+
+.head_nav ul li{
+    display: inline;
+    background-color: #efe5d0;
+    padding: 5px 10px;
+    margin: 120px 5px;
+}
+.head_nav ul li:hover{
+	background-color:orange;
+}
+
+.head_nav ul li.selected{
+    background-color: #FFFF00;
+}
+
+.lunbo{
+	
+	width:1300px;
+	height:350px;
+	margin-top:5px;
+	margin-left:25px;
+	margin-right:0px;
+	
+}
+
+#lunbo{
+	width:900px;
+	float:left;
+	margin-top:0;
+	margin-right:0;
+	height:350px;
+	display:inline-block;
+}
+
+#lunbo ul li:not(:first-child){display: none;}
+#lunbo ul li{width:100%;list-style: none;}
+
+.weather{
+	float:right; 
+	width:195px; height:30px;
+}
+
+.img{
+	float:left; 
+	padding-top:0px;
+	width:30px; height:25px;
+}
+
+.text{
+	float:left; 
+	padding-top:5px; 
+	width:165px; height:20px;
+}
+
+.user_login{
+    text-align: center; 
+    border-radius: 20px; 
+    width: 500px; 
+    height: 300px; 
+    position: absolute; 
+    left: 50%; top: 60%; 
+    transform: translate(-50%,-50%);  
+    background-image:url("../images/login_bg.jpg");
+    background-size:cover;
+}
+
+.yqlj{
+	width:100%;
+	height:24px;
+	margin-top:10px;
+}
+
+.zxgp_yqlj{
+	width:100%;
+	height:30px;
+	margin-top:95px;
+}
+
+.signinyqlj{
+	width:100%;
+	height:30px;
+	margin-top:150px;
+}
+
+.signupyqlj{
+	width:100%;
+	height:30px;
+	margin-top:40px;
+}
+
+.zpy_yqlj{
+	width:100%;
+	height:30px;
+	margin-top:185px;
+}
+
+.Query_yqlj{
+	width:100%;
+	height:30px;
+	margin-top:20px;
+}
+
+.yqlj_1{
+	margin-left:102px;
+}
+
+.yqlj_2{
+	margin-left:102px;
+}
+
+.yqlj_3{
+	margin-left:102px;
+}
+
+
+.footer{
+	width:100%;
+	clear: both;
+    margin-top: 2px;
+    padding: 5px;
+    background-color: #dd9222;
+    color: #efe5d0;
+    text-align: center;
+    font-size: 90%;
+}
+
+.signin_form{
+	margin-top:50px;
+	margin-left:550px;
+	display:inline-block;
+}
+
+.signup_form{
+	margin-top:0px;
+	margin-left:410px;
+}
+
+.manager{
+	margin:80px,0px,auto;
+}
+
+.manager_1{
+	margin-top:10px;
+	margin-left:100px;
+	display:inline-block;
+}
+
+.manager_2{
+	margin-top:10px;
+	margin-left:100px;
+	display:inline-block;
+}
+
+.dropuser_form{
+	width:600px;
+	height:200px;
+	margin-top:100px;
+	margin-left:380px;
+}
+
+.droptickets_form{
+	width:600px;
+	height:200px;
+	margin-top:100px;
+	margin-left:380px;
+}
+
+.addtickets_form{
+	margin-top:15px;
+	margin-left:420px;
+}
+
+.chaxun_form{
+	margin-top:10px;
+	margin-left:380px;
+	width:600px;
+}
+
+.usertable{
+	border: 3px black solid;
+	width: 600px;
+	margin-left:380px;
+}
+
+.traintable{
+	border :3px black soild;
+	width:600px;
+	margin-left:380px;
+}
+
+.traintable td,th{
+	heigh: 30px;
+	border: #CCCCCC 2px soild;
+}
+
+.usertable td,th{
+	height: 30px;
+	border: #CCCCCC 2px solid;
+}
+
+#sub2{
+	border:2px black soild;
+	width:600px;
+	margin:0 auto;
+}
+
+#sub2 p{
+	color:#FF0000;
+	font-size:30px;
+	font-style:normal;
+	font-weight:bold;
+}
+
+.query_form{
+	margin-left:150px;
+	width:600px;
+}
+
+.about_us{
+	width:1300px;
+	height:350px;
+	margin-left:26px;
+	margin-top:10px;
+	background-color:#11eeee;
+	
+}
+
+.us_yqlj{
+	width:100%;
+	height:30px;
+	margin-top:2px;
+}
+
+.grzx_yqlj{
+	width:100%;
+	height:30px;
+	margin-top:17px;
+}
+
+.hot_yqlj{
+	width:100%;
+	height:28px;
+	margin-top:0px;
+}
+
+.personcenter_form{
+	margin-top:4px;
+	margin-left:63px;
+}
+
+.upuser_table{
+	border:2px black soild;
+}
+.form0{
+	margin-top:35px;
+	margin-left:450px;
+	width:500px;
+	height:250px;
+}
+
+.calendar {
+    width: 320px;
+    height: 350px;
+}
+
+.calendar-modal {
+    display: none;
+    position: absolute;
+    background: #fdfdfd;
+    border: 1px solid #e8e8e8;
+    box-shadow: 1px 2px 3px #ddd
+}
+.calendar-inner {
+    position: relative;
+    z-index: 1;
+    -webkit-perspective: 1000;
+    -moz-perspective: 1000;
+    -ms-perspective: 1000;
+    perspective: 1000;
+    -ms-transform: perspective(1000px);
+    -moz-transform: perspective(1000px);
+    -moz-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+}
+.calendar-views {
+    transform-style: preserve-3d;
+}
+.calendar .view {
+    backface-visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    *overflow: hidden;
+    -webkit-transition: .6s;
+    transition: .6s;
+}
+.calendar-d .view-month,
+.calendar-m .view-date {
+    transform: rotateY(180deg);
+    visibility: hidden;
+    z-index: 1;
+}
+.calendar-d .view-date,
+.calendar-m .view-month {
+    transform: rotateY(0deg);
+    visibility: visible;
+    z-index: 2;
+}
+.calendar-ct,
+.calendar-hd,
+.calendar-views .week,
+.calendar-views .days {
+    overflow: hidden;
+}
+.calendar-views {
+    width: 100%;
+}
+.calendar .view,
+.calendar-display,
+.calendar-arrow .prev,
+.calendar .date-items li {
+    float: left;
+}
+.calendar-arrow,
+.calendar-arrow .next {
+    float: right;
+}
+.calendar-hd {
+    padding: 10px 0;
+    height: 30px;
+    line-height: 30px;
+}
+.calendar-display {
+    font-size: 30px;
+    text-indent: 10px;
+}
+.view-month .calendar-hd {
+    padding: 10px;
+}
+.calendar-arrow,
+.calendar-display {
+    color: #EE2C2C;
+}
+.calendar li[disabled] {
+    color: red;
+}
+.calendar li.old[disabled],
+.calendar li.new[disabled] {
+    color: #eee;
+}
+.calendar-display .m,
+.calendar-views .week,
+.calendar-views .days .old,
+.calendar-views .days .new,
+.calendar-display:hover,
+.calendar-arrow span:hover {
+    color: red;
+}
+
+.calendar-arrow span,
+.calendar-views .days li[data-calendar-day],
+.calendar-views .view-month li[data-calendar-month] {
+    cursor: pointer;
+} 
+.calendar li[disabled] {
+    cursor: not-allowed;
+}
+
+.calendar-arrow {
+    width: 55px;
+    margin-right:20px;
+}
+.calendar-arrow span {
+    font: 500 26px sans-serif;
+}
+
+.calendar ol li {
+    position: relative;
+    float: left;
+    text-align: center;
+    border-radius: 50%;
+}
+.calendar .week li,
+.calendar .days li {
+    width: 50px;
+    height: 40px;
+    line-height: 40px;
+}
+.calendar .month-items li {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+}
+.calendar .days li[data-calendar-day]:hover{
+	background:yellow;
+}
+.calendar .view-month li[data-calendar-month]:hover {
+    background: yellow; 
+}
+.calendar .calendar-views .now {
+    color: blue;
+    background: #FF808E!important;  
+}
+.calendar .calendar-views .selected {
+    color: #FF808E;
+    background: #CDE9D9!important; 
+}
+.calendar .calendar-views .dot {
+    position: absolute;
+    left: 50%;
+    bottom: 4px;
+    margin-left: -2px; 
+    width: 4px;
+    height: 4px;
+    background: #FF808E;
+    border-radius: 50%;
+}
+.calendar-views .now .dot {
+    background: #fff;
+}
+
+.calendar .date-items {
+    width: 300%;
+    margin-left: -100%;
+}
+
+.calendar-label {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 2;
+    padding: 5px 10px;
+    line-height: 22px;
+    color: red;
+    background: #000;
+    border-radius: 3px;
+    opacity: .7;
+    filter: alpha(opacity=70);
+}
+
+.calendar-label i {
+    display: none;
+    position: absolute;
+    left: 50%;
+    bottom: -12px;
+    width: 0;
+    height: 0;
+    margin-left: -3px;
+    border: 6px solid transparent;
+    border-top-color: #000;
+}
+
+#demo {
+	width: 295px;
+	height:350px;
+	margin-top:0px;
+	display:inline-block;
+	float:left;
+	margin-left:30px;
+	margin-right:70px;
+}
+
+#dt {
+	margin: 30px auto;
+	height: 28px;
+	width: 160px;
+	padding: 0 6px;
+	border: 1px solid red;
+	outline: none;
+}
+
+
+.main_calendar{
+	font: 500 14px 'roboto';
+	color: #333;
+	background-color: #fafafa;
+}
+
+.main_calendar.ul, ol, li {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.main_calendar.a{
+	text-decoration: none;
+}
+
+.main_calendar.p{
+	margin:0;
+}
+.team legend{
+	font-size:24px;
+	color:red;
+	text-shadow:0px 0px 8px #fff, 
+	            0px 0px 42px #f72, 
+	            0px 0px 72px #f84,
+	            0px 0px 150px #fa5;
+}
+.team{
+	height:325px;
+	width:1300px;
+	margin-top:30px;
+	margin-left:25px;
+}
+.team p{
+	font-size:18px;
+	color:black;
+}
+.caoxue, .zhanglu, .wanghan{
+	display:inline-block;
+	margin-left:100px;
+	width:300px;
+}
+
+.caoxue p{
+	background-color:yellow;
+}
+
+.zhanglu p{
+	background-color:yellow;
+}
+
+.wanghan p{
+	background-color:yellow;
+}
+
+.QueryRs{
+	margin:10px auto;
+	width:750px;
+	height:320px;
+	background:url(../images/bg_buy.jpg) no-repeat 100% 100%;
+}
+
+.friends{
+	width:750px;
+	height:320px;
+	margin:10px auto;
+	background:url(../images/bg_add.jpg) no-repeat 100% 100%;
+	text-align:center;
+}
+
+.hot_city{
+	width:1300px;
+	height:350px;
+	margin:5px auto;
+}
+
+.city_1{
+	display:inline-block;
+	width:430px;
+	height:155px;
+	background-image:url(../images/city_1.jpg);
+    background-size:cover;
+}
+
+.city_2{
+	display:inline-block;
+	width:430px;
+	height:155px;
+	background-image:url(../images/city_2.jpg);
+    background-size:cover;
+}
+
+.city_3{
+	display:inline-block;
+	width:430px;
+	height:155px;
+	background-image:url(../images/city_3.jpg);
+    background-size:cover;
+}
+.city_4{
+	display:inline-block;
+	width:430px;
+	height:155px;
+	background-image:url(../images/city_4.jpg);
+	background-size:cover;
+}
+.city_5{
+	display:inline-block;
+	width:430px;
+	height:155px;
+	background-image:url(../images/city_5.jpg);
+    background-size:cover;
+}
+
+.city_6{
+	display:inline-block;
+	width:430px;
+	height:155px;
+	background-image:url(../images/city_6.jpg);
+	background-size:cover;
+}
+
+.vip{
+	width:1300px;
+	height:350px;
+	margin:5px auto;
+}
+
+.wx{
+	width:320px;
+	height:320px;
+	float:right;
+	display:inline-block;
+    background-image:url(../images/vip_2.jpg);
+    background-size:cover;
+}
+
+.vip_power{
+	display:inline-block;
+	width:450px;
+	height:350px;
+	background-image:url(../images/vipa.jpg);
+	background-size:cover;
+}
+
+.vip_money{
+	display:inline-block;
+	width:450px;
+	height:350px;
+	margin-left:60px;
+	background-image:url(../images/vipb.jpg);
+    background-size:cover;
+}
+
+.gp{
+	display: none; 
+    position: fixed; 
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%;
+    overflow: auto; 
+    background-color:rgba(0,0,0,0.4);
+    
+}
+
+.gpk{
+	background-image:url(../images/gpk.jpg);
+	background-size:cover;
+    margin: 15% auto; 
+    width:300px;
+    height:200px;
+}
